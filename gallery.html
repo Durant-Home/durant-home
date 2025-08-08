@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery | Durant Home Improvement</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f8f8f8; color: #333; }
+    header, footer { background: #222; color: white; text-align: center; padding: 20px; }
+    header h1 { margin: 0; font-size: 2rem; }
+    nav { background: #444; text-align: center; padding: 10px 0; }
+    nav a { color: #fff; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; padding: 20px; }
+    .gallery img { width: 100%; height: auto; border-radius: 8px; object-fit: cover; box-shadow: 0 0 5px rgba(0,0,0,0.2); }
+    footer { font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Project Gallery</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="gallery">
+    <img src="images/project1.jpg" alt="Project 1" />
+    <img src="images/project2.jpg" alt="Project 2" />
+    <img src="images/project3.jpg" alt="Project 3" />
+    <!-- Add more images here -->
+  </div>
+
+  <footer>
+    &copy; 2025 Durant Home Improvement. All rights reserved.
+  </footer>
+</body>
+</html>
